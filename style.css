@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.container {
+  font-family: 'Open Sans', sans-serif;
+  margin: 5px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img {
+  border-radius: 5px;
+}
+li {
+  display: inline;
+}
+.nav-item {
+  list-style: none;
+  text-decoration: none;
+}
+#about {
+  height: 75vh;
+}
+#projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.project-item {
+  margin: 5px;
+  padding: 10px;
+  background-color: aliceblue;
+}
+.footer {
+  align-content: center;
+}
